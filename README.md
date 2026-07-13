@@ -1,30 +1,50 @@
 # Data Structures & Algorithms
 
-This repository contains my solutions to Data Structures and Algorithms (DSA) problems from multiple coding platforms.
+Welcome to my **Data Structures & Algorithms (DSA)** repository.
 
-## Platforms
+This repository contains my solutions to problems from multiple coding platforms. Each problem is organized in its own folder along with:
+- 📄 Problem summary
+- 💻 C++ solution
+- 📊 Complexity analysis
+- 📝 Notes and learnings
+
+---
+
+## 📚 Platforms
 
 - LeetCode
 - Codeforces
 - GeeksforGeeks
 
-## Languages
+---
+
+## 💻 Language
 
 - C++
 - Java
 
-## Repository Structure
+---
 
-```text
-LeetCode/
-Codeforces/
-GeeksforGeeks/
-```
+## 📈 Progress
 
-## Progress
-
-| Platform | Solved |
-|-----------|-------:|
+| Platform | Problems Solved |
+|-----------|----------------:|
 | LeetCode | 1 |
 | Codeforces | 0 |
 | GeeksforGeeks | 0 |
+
+---
+
+## 📂 Repository Structure
+
+```text
+DSA
+│
+├── LeetCode/
+├── Codeforces/
+└── GeeksforGeeks/
+```
+
+---
+
+⭐ This repository is regularly updated as I continue solving DSA problems across different platforms.
