@@ -1,0 +1,166 @@
+# Maximum Number of Distinct Starting Substrings
+
+> **Platform:** LeetCode  
+> **Difficulty:** Medium  
+> **Topics:** String, Hash Set, Greedy
+
+---
+
+## 🔗 Problem Link
+
+https://leetcode.com/problems/maximum-substrings-with-distinct-start/description/?envType=problem-list-v2&envId=string
+
+---
+
+## 📝 Problem Summary
+
+Given a string `s` consisting of lowercase English letters, determine the **maximum number of substrings** the string can be split into such that **each substring starts with a distinct character**.
+
+Return the maximum possible number of such substrings.
+
+---
+
+## 💡 Examples
+
+### Example 1
+
+**Input**
+
+```text
+s = "abab"
+```
+
+**Output**
+
+```text
+2
+```
+
+**Explanation**
+
+```text
+"a" | "bab"
+```
+
+The substrings start with **'a'** and **'b'**, which are distinct.
+
+---
+
+### Example 2
+
+**Input**
+
+```text
+s = "abcd"
+```
+
+**Output**
+
+```text
+4
+```
+
+**Explanation**
+
+```text
+"a" | "b" | "c" | "d"
+```
+
+Each substring starts with a unique character.
+
+---
+
+### Example 3
+
+**Input**
+
+```text
+s = "aaaa"
+```
+
+**Output**
+
+```text
+1
+```
+
+**Explanation**
+
+Only one substring can start with **'a'**.
+
+---
+
+## 📌 Constraints
+
+- `1 <= s.length <= 10^5`
+- `s` consists of lowercase English letters.
+
+---
+
+## 🚀 Approach
+
+### Intuition
+
+- Every substring must begin with a unique character.
+- Therefore, we only need to count how many distinct starting characters can exist.
+- Keep track of the characters that have already been used as the starting character of a substring.
+- Whenever a new character is encountered for the first time, start a new substring.
+
+---
+
+## ⚙️ Algorithm
+
+1. Create a data structure to store visited characters.
+2. Traverse the string from left to right.
+3. If the current character has not been seen before:
+   - Mark it as visited.
+   - Increase the answer by `1`.
+4. Return the final count.
+
+---
+
+## 📊 Complexity Analysis
+
+| Complexity | Value |
+|------------|------:|
+| Time | **O(n²)** |
+| Space | **O(n)** *(stores distinct characters in a string)* |
+
+---
+
+## 🧠 What I Learned
+
+- How to use nested loops to check whether a character has already been encountered.
+- The importance of using a boolean flag (`found`) to determine whether an element exists before inserting it.
+- How the `break` statement exits only the current loop and why a flag variable is needed to make decisions after the loop.
+- How to build a string containing only distinct characters using `push_back()`.
+- This brute-force solution can be further optimized using an `unordered_set` to achieve **O(n)** time complexity.
+---
+
+## 💻 Solution (C++)
+
+```cpp
+class Solution {
+public:
+    int maxDistinct(string s) {
+        string s1;
+        s1.push_back(s[0]);
+        for(int i=1;i<s.size();i++){
+        bool found = false;
+            for(int j=0;j<s1.size();j++){
+               if(s[i] ==s1[j]){
+                found = true;
+                break;
+               }
+               
+            }
+            if(found == false){
+
+                s1.push_back(s[i]);
+            }
+        }
+        return s1.size();
+    }
+
+};
+```
