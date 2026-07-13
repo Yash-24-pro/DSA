@@ -12,18 +12,18 @@ Each problem is organized in its own folder and includes:
 
 ## 📈 Statistics
 
-| Total | Easy | Medium | Hard |
-|------:|-----:|-------:|-----:|
-| 0 | 0 | 0 | 0 |
+| Total Solved | Easy | Medium | Hard |
+|--------------|-----:|-------:|-----:|
+| 1 | 0 | 1 | 0 |
 
 ---
 
-## 📚 Problems
+## 📚 Problem List
 
 | # | Problem | Difficulty | Topics | Language | Solution |
 |---:|---------|:----------:|--------|:--------:|:--------:|
-| - | - | - | - | - | - |
+| 3760 | Maximum Number of Distinct Starting Substrings | 🟡 Medium | String | C++ | [View](./3760.%20Maximum%20Number%20of%20Distinct%20Starting%20Substrings/) |
 
 ---
 
-_Last Updated: YYYY-MM-DD_
+_Last Updated: 14 July 2026_
