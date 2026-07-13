@@ -4,7 +4,7 @@ Welcome to my **Data Structures & Algorithms (DSA)** repository.
 
 This repository contains my solutions to problems from multiple coding platforms. Each problem is organized in its own folder along with:
 - 📄 Problem summary
-- 💻 C++ solution
+- 💻 C++ & Java solution
 - 📊 Complexity analysis
 - 📝 Notes and learnings
 
