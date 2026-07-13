@@ -4,7 +4,7 @@ This directory contains my accepted solutions to LeetCode problems.
 
 Each problem is organized in its own folder and includes:
 - 📄 A detailed `README.md`
-- 💻 C++ solution
+- 💻 C++ or Java solution
 - 📊 Time & Space Complexity
 - 📝 Notes and possible optimizations
 
