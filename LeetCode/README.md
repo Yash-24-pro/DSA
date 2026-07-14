@@ -14,7 +14,7 @@ Each problem is organized in its own folder and includes:
 
 | Total Solved | Easy | Medium | Hard |
 |--------------|-----:|-------:|-----:|
-| 1 | 0 | 1 | 0 |
+| 2 | 0 | 2 | 0 |
 
 ---
 
@@ -23,6 +23,7 @@ Each problem is organized in its own folder and includes:
 | # | Problem | Difficulty | Topics | Language | Solution |
 |---:|---------|:----------:|--------|:--------:|:--------:|
 | 3760 | Maximum Number of Distinct Starting Substrings | 🟡 Medium | String | C++ | [View](./3760.%20Maximum%20Number%20of%20Distinct%20Starting%20Substrings/) |
+| 7 | Reverse Integer | 🟡 Medium | Maths | C++ | [View](https://leetcode.com/problems/reverse-integer/description/?envType=problem-list-v2&envId=math) |
 
 ---
 
