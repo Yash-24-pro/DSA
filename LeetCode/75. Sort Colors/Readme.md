@@ -12,13 +12,13 @@ https://leetcode.com/problems/sort-colors/
 
 Given an array `nums` with `n` objects colored red, white, or blue, sort them **in-place** so that objects of the same color are adjacent.
 
-The colors are represented by the integers:
+We use the integers:
 
 * `0` → Red
 * `1` → White
 * `2` → Blue
 
-You must solve the problem **without using the library's `sort()` function**.
+You must solve this problem **without using the library's `sort()` function**.
 
 ---
 
@@ -64,16 +64,16 @@ nums = [2,0,1]
 
 ## 🚀 Approach
 
-This solution implements the **Selection Sort** algorithm.
+This solution uses the **Selection Sort** algorithm to sort the array in-place.
 
-1. Iterate through the array from left to right.
-2. Assume the current element is the smallest (`minIndex = i`).
-3. Traverse the remaining unsorted portion of the array to find the actual minimum element.
+1. Traverse the array from the first element to the second-last element.
+2. Assume the current element is the minimum (`minIndex = i`).
+3. Search the remaining unsorted part of the array to find the smallest element.
 4. Update `minIndex` whenever a smaller element is found.
-5. After completing the inner loop, swap the current element with the minimum element (only if they are different).
-6. Repeat the process until the array is completely sorted.
+5. After completing the search, swap the current element with the minimum element (only if they are different).
+6. Repeat the process until the entire array is sorted.
 
-Since the array contains only the values `0`, `1`, and `2`, this approach correctly sorts the colors without using the built-in `sort()` function.
+This approach avoids using the built-in `sort()` function and correctly sorts the colors in ascending order (`0`, `1`, `2`).
 
 ---
 
@@ -88,11 +88,11 @@ Since the array contains only the values `0`, `1`, and `2`, this approach correc
 
 ## 🧠 What I Learned
 
-* How the **Selection Sort** algorithm works by selecting the minimum element in each pass.
-* Why the swap should be performed **after** finding the minimum element instead of during the search.
-* How to sort an array in-place without using the library's `sort()` function.
-* The importance of reducing unnecessary swaps by performing only one swap per iteration.
-* Although Selection Sort is accepted for this problem, the optimal solution uses the **Dutch National Flag Algorithm**, which runs in **O(n)** time.
+* How the **Selection Sort** algorithm works.
+* Why Selection Sort performs only **one swap per iteration** after finding the minimum element.
+* The importance of separating the **search phase** from the **swap phase**.
+* How to sort an array **in-place** without using the library's `sort()` function.
+* Although this solution is accepted, the optimal solution for this problem is the **Dutch National Flag Algorithm**, which solves it in **O(n)** time using constant extra space.
 
 ---
 
