@@ -27,6 +27,6 @@ Each problem is organized in its own folder and includes:
 | 20 | Valid Parentheses | 🟢 Easy | String,Stack | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/20.%20Valid%20Parentheses%20) |
 | 75 | Sort Colors | 🟡 Medium | Array,Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/75.%20Sort%20Colors) |
 
----
+----
 
 _Last Updated: 17 July 2026_
