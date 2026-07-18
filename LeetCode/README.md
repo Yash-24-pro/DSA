@@ -29,4 +29,4 @@ Each problem is organized in its own folder and includes:
 
 ----
 
-_Last Updated: 17 July 2026_
+_Last Updated: 18 July 2026_
