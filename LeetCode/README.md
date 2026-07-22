@@ -14,7 +14,7 @@ Each problem is organized in its own folder and includes:
 
 | Total Solved | Easy | Medium | Hard |
 |--------------|-----:|-------:|-----:|
-| 7 | 3 | 4 | 0 |
+| 8 | 3 | 5 | 0 |
 
 ---
 
@@ -28,6 +28,7 @@ Each problem is organized in its own folder and includes:
 | 75 | Sort Colors | 🟡 Medium | Array,Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/75.%20Sort%20Colors) |
 | 58 | Length Of Last Word | 🟢 Easy | String | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/58.%20Length%20Of%20Last%20Word) |
 | 189 | Rotate an Array | 🟡 Medium | Array,Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/189.%20Rotate%20Array) |
+| 29 | Divide Two Integer | 🟡 Medium | Maths | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/29.%20Divide%20Two%20Integers) |
 | 169 | Majority Elements | 🟢 Easy | Array, Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/169.%20Majority%20Elements) |
 ----
 
