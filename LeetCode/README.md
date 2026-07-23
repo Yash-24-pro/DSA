@@ -14,7 +14,7 @@ Each problem is organized in its own folder and includes:
 
 | Total Solved | Easy | Medium | Hard |
 |--------------|-----:|-------:|-----:|
-| 8 | 3 | 5 | 0 |
+| 9 | 3 | 6 | 0 |
 
 ---
 
@@ -30,6 +30,7 @@ Each problem is organized in its own folder and includes:
 | 189 | Rotate an Array | 🟡 Medium | Array,Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/189.%20Rotate%20Array) |
 | 29 | Divide Two Integer | 🟡 Medium | Maths | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/29.%20Divide%20Two%20Integers) |
 | 169 | Majority Elements | 🟢 Easy | Array, Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/169.%20Majority%20Elements) |
+| 215 | Kth Largest Element in an Array| 🟡 Medium | Sorting | C++ | [View](https://github.com/Yash-24-pro/DSA/tree/main/LeetCode/215.%20Kth%20Largest%20Element%20in%20an%20Array) |
 ----
 
-_Last Updated: 22 July 2026_
+_Last Updated: 23 July 2026_
