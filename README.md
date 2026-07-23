@@ -29,7 +29,7 @@ This repository contains my solutions to problems from multiple coding platforms
 
 | Platform | Problems Solved |
 |-----------|----------------:|
-| LeetCode | 8 |
+| LeetCode | 9 |
 | Codeforces | 0 |
 | GeeksforGeeks | 0 |
 
